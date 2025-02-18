@@ -64,9 +64,9 @@ public class RiddleRush {
             String userAnswer = scanner.nextLine().trim();
 
             if (userAnswer.equalsIgnoreCase(answers.get(index))) {
-                System.out.println("✅ Correct! You solved the riddle.");
+                System.out.println(" Correct! You solved the riddle.");
             } else {
-                System.out.println("❌ Incorrect. The answer is: " + answers.get(index));
+                System.out.println(" Incorrect. The answer is: " + answers.get(index));
             }
 
             // Ask if the player wants to continue
@@ -77,7 +77,7 @@ public class RiddleRush {
             }
         }
 
-        System.out.println("🎉 Thanks for playing!");
+        System.out.println(" Thanks for playing!");
         scanner.close();
     }
 
