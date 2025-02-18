@@ -33,7 +33,7 @@ java WordPuzzle.RiddleRush
 Follow the on-screen prompts to answer riddles and continue playing. The game will ask you whether you'd like to play another riddle after each answer.
 
 ## Sample Output
-'''text
+```text
 Riddle: I am taken from a mine, and shut up in a wooden case, from which I am never released, and yet I am used by almost every person. What am I?
 Your answer: Pencil
 ✅ Correct! You solved the riddle.
